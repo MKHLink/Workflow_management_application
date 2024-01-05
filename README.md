@@ -17,3 +17,14 @@ For this assessment students will work in a group(s) to write a full stack appli
 
 [Figma Wireframe Link](https://www.figma.com/file/huwXGJxW6BCIbk4p2QcZG2/Final-Prototype?node-id=0%3A1&t=BnbL9FVyQYeS41FC-1)
 
+___
+
+## Instructions For Running Application
+
+1. Clone this repository on your local machine.
+2. Open the project in VS Code.
+3. In Postgres(either in pgAdmin or terminal), create a database with name "postgres" and password "bondstone" running on port 5432.
+4. Navigate to the backend folder in the terminal and run "mvn clean install" followed by "mvn spring-boot:run"
+5. Open another terminal and navigate to frontend folder. Run "npm start" to run the angular application.
+6. Open http://localhost:4200 in the browser.
+
